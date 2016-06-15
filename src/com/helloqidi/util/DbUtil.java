@@ -7,11 +7,11 @@ public class DbUtil {
 
 	private String dbUrl="jdbc:mysql://localhost:3306/db_studentInfo";
 	private String dbUserName="root";
-	private String dbPassword="alexander";
+	private String dbPassword="123456";
 	private String jdbcName="com.mysql.jdbc.Driver";
 	
 	/**
-	 * »ñÈ¡Êı¾İ¿âÁ¬½Ó
+	 * è·å–æ•°æ®åº“è¿æ¥
 	 * @return
 	 * @throws Exception
 	 */
@@ -22,7 +22,7 @@ public class DbUtil {
 	}
 	
 	/**
-	 * ¹Ø±ÕÊı¾İ¿âÁ¬½Ó
+	 * å…³é—­æ•°æ®åº“è¿æ¥
 	 * @param con
 	 * @throws Exception
 	 */
@@ -36,7 +36,7 @@ public class DbUtil {
 		DbUtil dbUtil=new DbUtil();
 		try {
 			dbUtil.getCon();
-			System.out.println("Êı¾İ¿âÁ¬½Ó³É¹¦");
+			System.out.println("æ•°æ®åº“è¿æ¥æˆåŠŸ");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
